@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 550px;
+    margin: 0 auto;
+    background-color: #a2d2ff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #14213d;
+}
+
+input {
+    border-radius: 5px;
+    align-self: center;
+    padding: 0.5em 0.75em;
+    width: 15%;
+}
+
+button {
+    align-self: center;
+    border-radius: 5px;
+    padding: 0.5em 0.75em;
+    background-color: #ffc8dd;
+    border: 2px solid #cdb4db;
+    cursor: pointer;
+}
+
+label {
+    margin-bottom: 0.75em;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+p.emojis {
+    margin: 0.25em;
+    font-size: 2rem;
+}
+
+.error-msg {
+    margin: 0;
+    color: #d00000;
+}
